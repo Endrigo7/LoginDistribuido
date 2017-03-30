@@ -16,6 +16,9 @@ public class App {
 	public static void main(String[] args) {
 
 		try {
+			/*
+			 * abre a porta 
+			 */
 			ServerSocket servidor = new ServerSocket(12350);
 			System.out.println("Servidor ouvindo a porta 12350");
 
