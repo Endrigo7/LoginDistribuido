@@ -12,7 +12,7 @@ import br.ufpe.servidorautenticacao.dao.UsuarioDAO;
 import br.ufpe.servidorautenticacao.model.Usuario;
 import br.ufpe.servidorautenticacao.util.HibernateUtil;
 
-public class App {
+public class ServidorAutenticacaoMain {
 	public static void main(String[] args) {
 
 		try {

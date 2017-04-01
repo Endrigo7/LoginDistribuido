@@ -10,7 +10,7 @@ import communication.SocketUtil;
  * Hello world!
  *
  */
-public class App {
+public class ClienteAuteticacaoMain {
 	public static void main(String[] args) {
 		Scanner leTeclado = new Scanner(System.in);
 

@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import br.ufpe.servidorcriptografia.util.Md5;
 
-public class App {
+public class ServidorCriptografiaMain {
 	public static void main(String[] args) {
 		
 		try {
