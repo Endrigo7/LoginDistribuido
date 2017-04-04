@@ -22,9 +22,14 @@ public class SocketUtil {
 		this.ip = ip;
 		this.porta = porta;
 	}
-
+	
+	/*
+	 * //TODO
+	 * Adicionando sysout para mudar para log4j
+	 */
 	public void conectServer() throws UnknownHostException, IOException {
 		this.cliente = new Socket(this.ip, this.porta);
+		System.out.println("Conectando no ip:" + this.ip);	
 	}
 
 	public void sendMenssage(String mensagem) throws IOException {
@@ -45,5 +50,4 @@ public class SocketUtil {
 	public void close() throws IOException {
 		this.cliente.close();
 	}
-
 }
