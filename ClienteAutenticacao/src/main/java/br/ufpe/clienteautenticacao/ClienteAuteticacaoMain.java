@@ -23,14 +23,14 @@ public class ClienteAuteticacaoMain {
 		/*
 		 * conecta no servidor para criptografa a senha
 		 */
-		SocketUtil sc = new SocketUtil("127.0.0.1", 12350);
+		SocketUtil sc = new SocketUtil("172.20.10.3", 1234);
 		try {
 			sc.conectServer();
 			sc.sendMenssage(login + "#" + senha);
 
 			String retorno = sc.getMessage();
 
-			System.out.println("Login cadastro " + retorno);
+			System.out.println("Mensagem recebida " + retorno);
 			sc.close();
 
 		} catch (UnknownHostException e) {
